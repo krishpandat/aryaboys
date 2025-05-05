@@ -1,0 +1,184 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.aboutussection {
+    background-image: url(backgames.jpg);
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+    height: 330px;
+    margin-top: -13px;
+    margin-bottom: 32px;
+
+}
+
+.topbar {
+    display: grid;
+    grid-template-columns: 18% 18% 25% 25% 18%;
+    column-gap: 0px;
+    font-size: 12px;
+    align-items: center;
+    background-color: #006341;
+    color: white;
+    height: 40px;
+}
+
+.topbar div {
+    display: flex;
+    margin-right: 2px;
+}
+
+.topbar .top-info {
+    margin-top: 5px;
+}
+
+.topbar img {
+    margin-right: 5px;
+}
+
+.topbar .top-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.navbar .navleft {
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: 5vh;
+}
+
+.navbar div img {
+    width: 80%;
+    height: auto;
+    margin-right: -100px;
+}
+
+.navbar .navlinks {
+    width: 90%;
+    background-color: #F76B0E;
+    margin: auto;
+    margin-top: -5vh;
+    font-size: 1.2rem;
+
+}
+
+.navbar .navlinks ul {
+    margin-left: -20px;
+    display: flex;
+    list-style: none;
+}
+
+.navbar .navlinks ul li {
+    margin: 0.5vh 2.5vh;
+}
+
+.navbar .navlinks ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.navbar .navlinks ul a:hover {
+    color: #006341;
+    border-bottom: 4px solid #006341;
+    transition: 0.5s;
+}
+
+.schoolname {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #006341;
+}
+body {
+
+    font-family: "poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.aboutus {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 46px;
+    color: antiquewhite;
+    padding-left: 100px;
+}
+
+.menulinks {
+    text-align: center;
+    color: antiquewhite;
+    padding-left: 100px;
+
+}
+
+.aryaschoolicon img {
+    height: 128px;
+    width: 42%;
+    padding-left: 15px;
+}
+
+.menulinks a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.ingamestext {
+    padding-left: 5px;
+    color: rgb(169, 154, 154);
+    padding-right: 99px;
+    padding-bottom: 24px;
+
+}
+
+
+.ingamesheading {
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.ingamesphoto1 img {
+    width: 300px;
+    height: 300px;
+    margin-top: -65px;
+    border-radius: 79px;
+    margin-left: 15px;
+    border: solid orangered;
+    object-fit: cover;
+}
+
+
+.aboutusheading {
+    background-color: white;
+    margin: -6vh 30vh 21vh 7vh;
+    border-radius: 21px;
+    border: 0.5px solid gray;
+    box-shadow: 0px 0px 20px black;
+    padding-left: 10px;
+}
+.ingamesphotoes{
+    display:flex;
+}
+
+.ingamesphoto2  img,
+.ingamesphoto3 img{
+  
+   /* justify-content: space-between;*/
+    border-radius: 79px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: solid orangered;
+    margin-top: -65px;
+}
